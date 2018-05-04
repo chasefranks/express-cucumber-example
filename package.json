@@ -1,0 +1,23 @@
+{
+  "name": "express-cucumber-example",
+  "version": "1.0.0",
+  "description": "BDD testing a REST API with CucumberJS",
+  "main": "index.js",
+  "scripts": {
+    "express": "node app.js",
+    "express-dev": "nodemon app.js",
+    "test": "cucumber-js"
+  },
+  "author": "C. Franks",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "cucumber": "^4.2.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "shortid": "^2.2.8",
+    "superagent": "^3.8.3",
+    "superagent-as-promised": "^4.0.0"
+  }
+}
